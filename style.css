@@ -147,3 +147,47 @@ button {
 }
 
 /* The content above contains quote style*/
+.sign-up {
+    width: 60%;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 32px 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-up-text h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up-text p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up button {
+    border: 5px solid #e5e7eb;
+}
+
+/* The above contains sign up card */
+
+.footer {
+    width: 100%;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 20px;
+}
