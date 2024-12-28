@@ -1,0 +1,149 @@
+body {
+    font-family: Roboto, 'Times New Roman';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-container {
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 15%;
+    /* align-items: center; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.intro {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #f9faf9;
+    font-weight: 900;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro-content {
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.intro img {
+    max-width: 400px;
+    height: auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    outline: none;
+    padding: 8px 32px;
+    border: #e5e7eb;
+    border-radius: 8px;
+}
+
+/* All the part above was for header and intro
+*/
+
+.information {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 20% 50px 20%;
+}
+
+.information h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.information-content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 150px;
+}
+
+.information-content p {
+    color: #1f2937;
+    font-size: 18px;
+}
+
+.information-content img {
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid #3882f6;
+    border-radius: 8px;
+}
+
+/* The content above contains random information style */
+
+.quote {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    box-sizing: border-box;
+    padding: 50px 20%;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    font-weight: lighter;
+}
+
+.quote h3 {
+    text-align: right;
+    font-size: 18px;
+}
+
+/* The content above contains quote style*/
